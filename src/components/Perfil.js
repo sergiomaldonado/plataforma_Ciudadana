@@ -1,7 +1,6 @@
 
 import React, { Component } from 'react'
 import {Navbar, Button} from 'react-bootstrap'
-import { Link } from 'react-router-dom';
 
 
 export default class componentName extends Component {
@@ -20,24 +19,12 @@ export default class componentName extends Component {
       <div>
       <Navbar style={{ backgroundColor:"red" }}bg="dark">
     <Navbar.Brand href="#home">
-      <h3 style={{ color:"white" }}>App Sergio</h3>
+      <h3 style={{ color:"white" }}>Perfil de Usuario</h3>
     </Navbar.Brand>
   </Navbar>
   <Button onClick={()=>this.setState({ paso:2 })} variant="primary">Primary</Button>
 
-     {
-       
-       this.state.paso === 1 
-       ?<h1>Estoy en el paso 1</h1>
-       :this.state.paso === 2 
-       ?<h1>Pase al paso 2</h1>
-       :null
-
-     }
-     <Link to={'/perfil'}> <Button onClick={()=>this.setState({ paso:2 })} variant="primary">ir al perfil de usuario</Button>
-</Link>
-              
-   
+     <h1>Estoy en el perfil de usuario</h1>
       </div>
     )
   }
