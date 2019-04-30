@@ -35,7 +35,7 @@ export default class componentName extends Component {
 
      }
      <Link to={'/perfil'}> <Button onClick={()=>this.setState({ paso:2 })} variant="primary">ir al perfil de usuario</Button>
-</Link>
+     </Link>
               
    
       </div>
