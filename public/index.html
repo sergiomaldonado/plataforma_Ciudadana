@@ -11,6 +11,13 @@
     * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
       * Enable inline JS: add 'unsafe-inline' to default-src
   -->
+  <link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous"
+/>
+ 
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
   <meta name="format-detection" content="telephone=no">
   <meta name="msapplication-tap-highlight" content="no">
@@ -21,8 +28,8 @@
     manifest.json provides metadata used when your web app is added to the
     homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
   -->
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  
+ 
   <!--
     Notice the use of %PUBLIC_URL% in the tags above.
     It will be replaced with the URL of the `public` folder during the build.
@@ -50,7 +57,26 @@
     To begin the development, run `npm start` or `yarn start`.
     To create a production bundle, use `npm run build` or `yarn build`.
   -->
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <script src="https://unpkg.com/react/umd/react.production.js" crossorigin />
+
+<script
+  src="https://unpkg.com/react-dom/umd/react-dom.production.js"
+  crossorigin
+/>
+
+<script
+  src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+  crossorigin
+/>
+
+<script>var Alert = ReactBootstrap.Alert;</script>
+
 </body>
+
 <script type="text/javascript" src="cordova.js"></script>
+
 
 </html>
