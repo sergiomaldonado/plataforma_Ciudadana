@@ -9,6 +9,12 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.example.tutorial"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.example.tutorial"
+    },
+    "cordova-universal-links-plugin": {
+      "PACKAGE_NAME": "com.example.tutorial"
     }
   },
   "dependent_plugins": {}

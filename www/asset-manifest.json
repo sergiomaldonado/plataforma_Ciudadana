@@ -1,7 +1,14 @@
 {
-  "main.css": "static/css/main.65027555.css",
-  "main.css.map": "static/css/main.65027555.css.map",
-  "main.js": "static/js/main.d6b52473.js",
-  "main.js.map": "static/js/main.d6b52473.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.b9763276.css",
+  "main.css.map": "static/css/main.b9763276.css.map",
+  "main.js": "static/js/main.bbd0ee79.js",
+  "main.js.map": "static/js/main.bbd0ee79.js.map",
+  "static/media/animal.svg": "static/media/animal.5279e68f.svg",
+  "static/media/enviado.svg": "static/media/enviado.ca9a8abd.svg",
+  "static/media/imgReporte.jpg": "static/media/imgReporte.4f04fd09.jpg",
+  "static/media/lampara.svg": "static/media/lampara.272330a0.svg",
+  "static/media/loader.svg": "static/media/loader.51da1601.svg",
+  "static/media/logoHome.png": "static/media/logoHome.9a57a0bf.png",
+  "static/media/singleLogo.png": "static/media/singleLogo.9a57a0bf.png",
+  "static/media/visto.svg": "static/media/visto.368c5bff.svg"
 }
